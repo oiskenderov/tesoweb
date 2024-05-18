@@ -14,7 +14,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@apollo/client": "^3.3.21",
+    "@apollo/client": "^3.5.10",
     "@emailjs/browser": "^3.9.1",
     "@iconify/react": "^3.1.3",
     "@next/eslint-plugin-next": "11.1.3-canary.7",
@@ -35,7 +35,7 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "^3.0.1",
     "react-typist": "^2.0.5",
-    "reactstrap": "^8.9.0",
+    "reactstrap": "^8.10.0",
     "sharp": "^0.33.3"
   },
   "devDependencies": {
