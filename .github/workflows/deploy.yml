@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '16'  # Use the Node.js version your project requires
+        node-version: '20'  # Use the Node.js version your project requires
         
     - name: Install dependencies
       run: npm install --legacy-peer-deps
@@ -35,4 +35,4 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
-        aws s3 sync ./out s3://orkhanapp2 --delete
+        aws s3 sync ./out s3://orkhanapp --delete
