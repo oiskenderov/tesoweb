@@ -41,7 +41,7 @@
   "devDependencies": {
     "@types/babel__core": "^7.20.0",
     "@types/headroom.js": "^0.12.2",
-    "@types/node": "^20.14.0",
+    "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-lottie": "^1.2.6",
     "eslint": "7.32.0",
