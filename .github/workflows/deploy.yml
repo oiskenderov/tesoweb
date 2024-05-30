@@ -22,7 +22,7 @@ jobs:
         node-version: '20'  # Use the Node.js version your project requires
         
     - name: Install dependencies
-      run: npm install --legacy-peer-deps
+      run: npm install
 
     - name: Run Audit --force
       run: npm audit fix --force
